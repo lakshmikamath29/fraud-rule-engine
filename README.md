@@ -34,4 +34,3 @@ Deliberately changing >= to > in R001 made TC-001 fail, confirming the tests cat
 ## Dashboard
 Run with: `streamlit run dashboard.py`
 
-![dashboard](docs/dashboard.png)
