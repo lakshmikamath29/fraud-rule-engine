@@ -8,7 +8,9 @@
 
 ## Testing
 7 UAT test cases cover boundary values and negative cases for each rule (amount thresholds, time-window edges, per-customer velocity, all-conditions-required).
-Run with: python -m pytest -v tests
+
+Run with: `python -m pytest -v tests`
+
 Deliberately changing >= to > in R001 made TC-001 fail, confirming the tests catch off-by-one logic errors.
 
 ## How to run
