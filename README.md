@@ -30,3 +30,8 @@ Deliberately changing >= to > in R001 made TC-001 fail, confirming the tests cat
 ## Limitations
 - All data is synthetic, so precision and recall here do not predict real-world performance.
 - Each rule only targets one pattern, so per-rule recall is low by design.
+
+## Dashboard
+Run with: `streamlit run dashboard.py`
+
+![dashboard](docs/dashboard.png)
