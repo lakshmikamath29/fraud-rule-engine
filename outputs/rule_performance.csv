@@ -1,0 +1,5 @@
+rule_id,rule,alerts,true_positives,false_positives,precision,recall,status
+R001,New beneficiary + high value,20,20,0,1.0,0.169,OK
+R002,Velocity burst,38,38,0,1.0,0.322,OK
+R003,Night-time high value,21,20,1,0.952,0.169,OK
+R004,New device + city change,0,0,0,0.0,0.0,REVIEW / TUNE

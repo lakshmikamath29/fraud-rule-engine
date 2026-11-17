@@ -1,0 +1,14 @@
+rule_id,param,value,alerts,precision,recall
+R001,new_benef_amount,10000,25,0.8,0.169
+R001,new_benef_amount,25000,20,1.0,0.169
+R001,new_benef_amount,50000,16,1.0,0.136
+R001,new_benef_amount,75000,14,1.0,0.119
+R002,velocity_count,3,58,1.0,0.492
+R002,velocity_count,4,48,1.0,0.407
+R002,velocity_count,5,38,1.0,0.322
+R002,velocity_count,6,28,1.0,0.237
+R002,velocity_count,8,10,1.0,0.085
+R003,night_amount,5000,155,0.129,0.169
+R003,night_amount,10000,45,0.444,0.169
+R003,night_amount,20000,21,0.952,0.169
+R003,night_amount,40000,15,1.0,0.127
